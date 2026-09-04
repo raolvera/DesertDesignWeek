@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desert Design Week</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-logo" href="#">Desert Design Week</a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a aria-current="page" href="#">Home</a></li>
+        <li><a href="#">Schedule</a></li>
+        <li><a href="#">Speakers</a></li>
+        <li><a href="#">Attend</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <!-- added flow for vertical spacing -->
+      <div class="hero-content flow">
+        <p class="eyebrow">April 17-19 · Phoenix, Arizona</p>
+        <h1>Practical workshops for people who design and build for the web.</h1>
+        <p>Join students, working designers, developers, and community partners for three days of accessible design, responsive systems, and production-quality front-end craft.</p>
+        <p><a class="button" href="#register">Register interest</a></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <!-- added flow for vertical spacing -->
+      <div class="section-heading flow">
+        <p class="eyebrow">Featured sessions</p>
+        <h2>Choose a track</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Accessible Patterns</h3>
+          <p>Audit navigation, forms, focus states, and document structure before launch.</p>
+          <a href="#">View track</a>
+        </article>
+        <article class="card">
+          <h3>Responsive CSS Systems</h3>
+          <p>Practice intrinsic layout, tokens, components, utilities, and browser testing.</p>
+          <a href="#">View track</a>
+        </article>
+        <article class="card">
+          <h3>Publishing and Performance</h3>
+          <p>Prepare metadata, optimize assets, validate HTML/CSS, and document evidence.</p>
+          <a href="#">View track</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="callout">
+        <h2>Community Access</h2>
+        <p>Student tickets and livestream captions are available. The venue includes transit access, step-free entry, and quiet rooms.</p>
+      </div>
+    </section>
+
+    <section class="section" id="register">
+      <h2>Register interest</h2>
+      <form class="interest-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email">
+
+        <label for="track">Preferred track</label>
+        <select id="track" name="track">
+          <option>Accessible Patterns</option>
+          <option>Responsive CSS Systems</option>
+          <option>Publishing and Performance</option>
+        </select>
+
+        <button class="button" type="submit">Submit interest</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Desert Design Week is a sample practice site for CSS architecture work.</p>
+  </footer>
+</body>
+</html>
